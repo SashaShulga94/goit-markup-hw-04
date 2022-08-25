@@ -222,7 +222,8 @@ body {
   padding-bottom: 94px;
 }
 .what-we-do-title,
-.our-team-title {
+.our-team-title,
+.our-clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -258,6 +259,10 @@ body {
   text-align: center;
   color: var(--secondary-color-theme-gray);
 }
+
+/* ----------------------OUR CLIENTS------------------ */
+
+
 
 /* FOOTER!!! */
 
