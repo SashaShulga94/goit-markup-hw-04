@@ -87,11 +87,6 @@ body {
   margin: -1px;
 }
 
-.icon-header{
- margin-right: 10px;
- display: flex;
-}
-
 /* header */
 
 .page-header {
@@ -146,6 +141,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color-theme-gray);
+  fill: currentColor;
 }
 .email {
   margin-left: auto;
@@ -157,10 +153,18 @@ body {
 .email-footer:hover,
 .menu-list :focus,
 .phone-footer:focus,
-.email-footer:focus,
+.email-footer:focus
 {
   color: var(--accent-color);
 }
+
+.icon-header{
+  margin-right: 10px;
+  display: flex;
+  fill: currentColor;
+ }
+ 
+
 
 /* hero */
 
@@ -268,6 +272,10 @@ body {
   background-color: var(--primary-text-color-theme-light);
   border-bottom: 1px solid var(--primary-text-color-theme-light);
   border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-div {
   padding: 30px 0;
@@ -285,7 +293,32 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-color-theme-gray);
+margin-bottom: 16px;
 }
+.team-ul{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.team-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+border-radius: 50%;
+background-color: var(--primary-text-color-theme-light);
+color: #AFB1B8;
+}
+.icon-team{
+  fill: currentColor;
+}
+.team-link-li :hover ,
+.team-link-li :focus {
+  color: var(--primary-text-color-theme-light);
+  background-color: var(--accent-color);
+}
+
 
 /* ----------------------OUR CLIENTS------------------ */
 
