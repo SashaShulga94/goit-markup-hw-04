@@ -50,6 +50,8 @@ img {
   --border-color-for-portfolio: #eeeeee;
   --hero-overlay: rgb(47, 48, 58, 0.4); 
   --new-bg-color-hero: #C4C4C4;
+  --icon-color: #AFB1B8;
+
 }
 body {
   font-family: var(--primary-font);
@@ -308,7 +310,7 @@ margin-bottom: 16px;
   height: 44px;
 border-radius: 50%;
 background-color: var(--primary-text-color-theme-light);
-color: #AFB1B8;
+color: var(--icon-color);
 }
 .icon-team{
   fill: currentColor;
@@ -322,7 +324,33 @@ color: #AFB1B8;
 
 /* ----------------------OUR CLIENTS------------------ */
 
-
+.clients-ul{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.clients-list{
+  width: 170px;
+  height: 92px;
+border-radius: 4px;
+border: 1px solid ;
+color: var(--icon-color);
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients-link{
+ 
+}
+.icon-clients{
+  fill: var(--icon-color);
+}
+.clients-list:hover, .icon-clients:hover ,
+.clients-list:focus, .icon-clients:focus {
+  background-color: #ffffff;
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
 
 /* FOOTER!!! */
 
@@ -349,6 +377,48 @@ color: #AFB1B8;
 .studio-footer {
   color: var(--primary-text-color-theme-light);
 }
+.footer-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+color: var(--primary-text-color-theme-light);
+margin-bottom: 20px;
+}
+.footer-ul{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.footer-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1) ;
+color: var(--primary-text-color-theme-light);
+}
+.icon-footer{
+  fill: currentColor;
+}
+.footer-link-li :hover ,
+.footer-link-li :focus {
+  color: var(--primary-text-color-theme-light);
+  background-color: var(--accent-color);
+}
+
+.neigborhood{
+  display: flex;
+  justify-content: left;
+}
+
+
+
+
+
+
 
 /* portfolio */
 
