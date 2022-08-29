@@ -241,7 +241,10 @@ body {
 }
 
 .features-div {
-  padding: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
   border-radius: 4px;
   background-color: var(--primary-background-color-theme-light);
   margin-bottom: 30px;
@@ -358,7 +361,6 @@ body {
 .address {
   line-height: 1.71;
   color: var(--primary-text-color-theme-light);
-  width: 231;
 }
 .email-footer,
 .phone-footer {
@@ -407,12 +409,12 @@ body {
 }
 
 .neigborhood {
-  display: inline-block;
-  align-items: baseline;
+  width: 231px;
+  margin-right: 70px;
 }
-.footer-join {
-  margin-left: 70px;
-  vertical-align: top;
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 
 /* portfolio */
